@@ -1,0 +1,9 @@
+C:\Users\dusti\source\repos\Ticktr\bin\Debug\Ticktr.exe
+C:\Users\dusti\source\repos\Ticktr\bin\Debug\Ticktr.pdb
+C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.csprojAssemblyReference.cache
+C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.Form1.resources
+C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.Properties.Resources.resources
+C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.csproj.GenerateResource.cache
+C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.csproj.CoreCompileInputs.cache
+C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.exe
+C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.pdb
