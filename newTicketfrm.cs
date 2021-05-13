@@ -9,27 +9,24 @@ using System.Windows.Forms;
 
 namespace Ticktr
 {
-    public partial class newTicket : Form
+    public partial class newTicketfrm : Form
     {
-        public newTicket()
+        public newTicketfrm()
         {
             InitializeComponent();
+            this.AcceptButton = createBtn;
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void createBtn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (textBox1.TextLength !=0 && richTextBox1.TextLength !=0)
+            if (subjecttxt.TextLength !=0 && bodytxt.TextLength !=0)
             {
+                ticket t = new ticket();
+                t.subject = subjecttxt.Text;
+                t.body = bodytxt.Text;
+                t.subjectHash = cryptography.hash(subjecttxt.Text);
+                t.bodyHash = cryptography.hash(bodytxt.Text);
+                //
+                ticket.createTicket(t);
             }
             else
             {
@@ -40,7 +37,7 @@ namespace Ticktr
 
         private void newTicket_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (textBox1.Text != "" || richTextBox1.Text !="")
+            if (subjecttxt.Text != "" || bodytxt.Text !="")
             {
 
                 if (MessageBox.Show("You have a unsaved ticket, are you sure you would like to exit ticktr?","Are you sure?", MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.Yes)
@@ -59,5 +56,6 @@ namespace Ticktr
                 GC.Collect();
             }
         }
+
     }
 }

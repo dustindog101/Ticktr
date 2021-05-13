@@ -7,4 +7,4 @@ C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.csproj.GenerateResource.cach
 C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.csproj.CoreCompileInputs.cache
 C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.exe
 C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.pdb
-C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.newTicket.resources
+C:\Users\dusti\source\repos\Ticktr\obj\Debug\Ticktr.newTicketfrm.resources

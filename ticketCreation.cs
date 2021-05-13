@@ -16,9 +16,7 @@ namespace Ticktr
                 SW.AutoFlush = true;
                 SW.WriteLine(content);
                 SW.Close();
-                
             }
-            
         }
         public static void createTicket(string title, string content, string key,string IV)
         {

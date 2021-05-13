@@ -21,7 +21,7 @@ namespace Ticktr
         {
             if (!publicItems.newOpen)
             {
-                var newTicket = new newTicket();
+                var newTicket = new newTicketfrm();
                 newTicket.Show();
                 publicItems.newOpen = true;
             }
@@ -29,6 +29,11 @@ namespace Ticktr
             {
                 MessageBox.Show("New ticket form already open, please close before opening a new form.");
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
